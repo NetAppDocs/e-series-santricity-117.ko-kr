@@ -1,0 +1,16 @@
+---
+permalink: sm-hardware/what-are-icmp-ping-responses.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, icmp, ping, responses, message, protocol, 
+summary: 'ICMP(Internet Control Message Protocol)는 TCP/IP 제품군의 프로토콜 중 하나입니다.' 
+---
+= ICMP ping 응답이란?
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ICMP(Internet Control Message Protocol)는 TCP/IP 제품군의 프로토콜 중 하나입니다.
+
+를 클릭합니다 `ICMP echo request` 및(`ICMP echo reply` 메시지는 일반적으로 로 알려져 있습니다 `ping` 메시지. `Ping` 은 시스템 관리자가 네트워크 장치 간의 연결을 수동으로 테스트하고 네트워크 지연 및 패킷 손실을 테스트하는 데 사용하는 문제 해결 도구입니다. 를 클릭합니다 `ping` 명령이 을 전송합니다 `ICMP echo request` 네트워크에 있는 장치에 즉시 응답하며, 장치는 로 응답합니다(`ICMP echo reply`. 때로는 회사의 네트워크 보안 정책이 필요합니다 `ping` (`ICMP echo reply`)를 모든 장치에서 비활성화하여 권한이 없는 사람이 발견하기 어렵게 만듭니다.
