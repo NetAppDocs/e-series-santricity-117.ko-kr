@@ -3,7 +3,7 @@ indexpage:
   tiles:
   - title: 설정
     links:
-    - title: Unified Manager 인터페이스 개요
+    - title: SANtricity Unified Manager 인터페이스 개요
       url: "../um-admin/overview-interface-unified.html"
     - title: 관리자 암호를 설정합니다
       url: "../um-admin/administrator-password-protection-unified.html"
